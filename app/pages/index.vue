@@ -32,7 +32,9 @@
       Outside of programming, I do
       <NuxtLink to="/photography" class="text-olive-800 underline transition-colors hover:text-olive-600">
         photography</NuxtLink>
-      and talking walks at obnoxious times. A huge Tokein nerd.
+      and talking walks at obnoxious times. A huge Tokein nerd. Send me a message on <a href="mailto:me@zoch.dev"
+        target="_blank" class="text-olive-800 underline transition-colors hover:text-olive-600">me@zoch.dev</a> to get
+      in touch.
     </p>
   </section>
 </template>
