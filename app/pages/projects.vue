@@ -8,7 +8,7 @@
           zoch.dev
         </h1>
       </div>
-      <NuxtImg src="/ascii.png" class="mix-blend-multiply" height="100" />
+      <NuxtImg src="/ascii.png" class="mix-blend-multiply" height="100" alt="ASCII rendition of my profile picture" />
     </NuxtLink>
   </section>
 
@@ -87,3 +87,14 @@
     </ul>
   </section>
 </template>
+
+
+<script setup lang="ts">
+useSeoMeta({
+  title: "Projects | zoch.dev",
+  ogTitle: "Projects | zoch.dev",
+  description: "Works and projects I've done | Zoclhas's Portfolio",
+  ogDescription: "Zoclhas's Portfolio",
+  ogImage: "https://zoch.dev/meta.jpg",
+})
+</script>

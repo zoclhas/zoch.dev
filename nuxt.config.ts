@@ -12,7 +12,10 @@ export default defineNuxtConfig({
   css: ["./app/assets/css/main.css"],
   modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxt/image"],
   app: {
-    head: { title: "zoch.dev" },
+    head: {
+      title: "zoch.dev",
+      htmlAttrs: { lang: "en" },
+    },
   },
   fonts: {
     families: [

@@ -8,7 +8,7 @@
         </h1>
         <p class="font-serif text-lg">Student, Software Engineer</p>
       </div>
-      <NuxtImg src="/ascii.png" class="mix-blend-multiply" height="400" />
+      <NuxtImg src="/ascii.png" class="mix-blend-multiply" height="400" alt="ASCII rendition of my profile picture" />
     </div>
 
     <p class="mt-4 text-justify">

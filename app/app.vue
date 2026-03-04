@@ -7,3 +7,14 @@
     <NuxtRouteAnnouncer />
   </Body>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  ogTitle: "zoch.dev",
+  description: "Zoclhas's Portfolio",
+  ogDescription: "Zoclhas's Portfolio",
+  ogImage: "https://zoch.dev/meta.jpg",
+
+  themeColor: "#4e5635",
+})
+</script>
