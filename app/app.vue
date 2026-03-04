@@ -1,7 +1,6 @@
 <template>
-
-  <Body class="bg-amber-50 font-serif antialiased">
-    <main class="md:py-32 py-16 min-h-screen px-4 max-w-3xl mx-auto">
+  <Body class="bg-amber-50 font-sans antialiased">
+    <main class="mx-auto min-h-screen max-w-3xl px-4 py-16 pb-32 md:py-32">
       <NuxtPage />
     </main>
     <NuxtRouteAnnouncer />

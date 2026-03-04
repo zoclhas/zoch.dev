@@ -19,6 +19,7 @@ export default defineNuxtConfig({
       { name: "Jersey 25", provider: "google" },
       { name: "Lilex", provider: "google" },
       { name: "Red Rose", provider: "google" },
+      { name: "IBM Plex Sans", provider: "google" },
     ],
   },
 });
