@@ -1,1 +1,57 @@
 @import "tailwindcss";
+
+@theme {
+  /* Colours */
+  --color-olive-50: #fbf9ea;
+  --color-olive-100: #f5f3d2;
+  --color-olive-200: #ebe7ab;
+  --color-olive-300: #dcd87a;
+  --color-olive-400: #cbc850;
+  --color-olive-500: #b0ae32;
+  --color-olive-600: #8c8c24;
+  --color-olive-700: #6a6b20;
+  --color-olive-800: #54561e;
+  --color-olive-900: #41431b; /* Main */
+  --color-olive-950: #26280b;
+
+  --color-green-50: #f5f6ef;
+  --color-green-100: #e9ebdc;
+  --color-green-200: #d4d9bd;
+  --color-green-300: #aeb784;
+  --color-green-400: #9ea972;
+  --color-green-500: #828d55;
+  --color-green-600: #656f41;
+  --color-green-700: #4e5635; /* Main */
+  --color-green-800: #41462e;
+  --color-green-900: #383d2a;
+  --color-green-950: #1c2013;
+
+  --color-husk-50: #f9f7f1;
+  --color-husk-100: #eee9d7;
+  --color-husk-200: #e3dbbb; /* Main */
+  --color-husk-300: #cabb7f;
+  --color-husk-400: #beab61;
+  --color-husk-500: #b29e4e;
+  --color-husk-600: #9d8b42;
+  --color-husk-700: #83743a;
+  --color-husk-800: #6c6134;
+  --color-husk-900: #5a512d;
+  --color-husk-950: #322c16;
+
+  --color-amber-50: #f8f3e1; /* Main */
+  --color-amber-100: #f4ecd1;
+  --color-amber-200: #e7d8a0;
+  --color-amber-300: #dbbf6e;
+  --color-amber-400: #d2ab4d;
+  --color-amber-500: #c99037;
+  --color-amber-600: #b1722e;
+  --color-amber-700: #945529;
+  --color-amber-800: #794527;
+  --color-amber-900: #643923;
+  --color-amber-950: #391d0f;
+
+  /* Fonts */
+  --font-jersey: "Jersey 25", sans-serif;
+  --font-mono: "Lilex", monospace;
+  --font-serif: "Red Rose", serif;
+}

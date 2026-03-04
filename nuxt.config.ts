@@ -10,5 +10,15 @@ export default defineNuxtConfig({
     ],
   },
   css: ["./app/assets/css/main.css"],
-  modules: ["@nuxt/eslint"],
+  modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxt/image"],
+  app: {
+    head: { title: "zoch.dev" },
+  },
+  fonts: {
+    families: [
+      { name: "Jersey 25", provider: "google" },
+      { name: "Lilex", provider: "google" },
+      { name: "Red Rose", provider: "google" },
+    ],
+  },
 });
